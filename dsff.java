@@ -12,7 +12,7 @@ public class dsff {
         int randNum = random.nextInt(1,100);
         System.out.println(randNum);
 
-        while (count < 100) {
+        while (count < 10) {
             System.out.println("введите число от 1 до 100:");
             int userNum = scanner.nextInt();
             if (userNum < 1 | userNum > 100){
