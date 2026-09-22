@@ -10,7 +10,6 @@ public class dsff {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int randNum = random.nextInt(1,100);
-        System.out.println(randNum);
 
         while (count < 10) {
             System.out.println("введите число от 1 до 100:");
@@ -32,7 +31,6 @@ public class dsff {
                 System.out.println("вы угадали за " + count + " попыток");
                 System.exit(0);
             }
-            break;
         }
         System.out.println("вы проиграли число было: " + randNum);
     }
